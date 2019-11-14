@@ -1,0 +1,19 @@
+ext.deps = [:]
+
+//第三方版本号
+def v = [:]
+v.support = "28.0.0"
+v.RecyclerViewAdapterHelper = "2.9.42"
+
+
+def dep = [:]
+dep.RecyclerViewAdapterHelper = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$v.RecyclerViewAdapterHelper"
+
+def support = [:]
+support.v7 = "com.android.support:appcompat-v7:$v.support"
+support.recyclerview = "com.android.support:recyclerview-v7:$v.support"
+dep.support = support
+
+
+ext.deps = dep
+

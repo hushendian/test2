@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="DOMUIButtonStyle" format="reference" />
+    <declare-styleable name="DOMUIRoundButton">
+        <!--按钮背景-->
+        <attr name="domui_backgroundColor" />
+        <!--按钮边框颜色-->
+        <attr name="domui_borderColor" />
+        <!--按钮边框宽度-->
+        <attr name="domui_borderWidth" />
+        <!--圆角为宽度的一半-->
+        <attr name="domui_isRadiusAdjustBounds" />
+        <!--自定义圆角radius-->
+        <attr name="domui_radius" />
+        <!--左上圆角弧度-->
+        <attr name="domui_radiusTopLeft" />
+        <!--左上圆角弧度-->
+        <attr name="domui_radiusTopRight" />
+        <!--右下圆角弧度-->
+        <attr name="domui_radiusBottomLeft" />
+        <!--右下圆角弧度-->
+        <attr name="domui_radiusBottomRight" />
+        <!--渐变色开始颜色-->
+        <attr name="domui_gradientStart" format="color" />
+        <!--渐变色结束颜色-->
+        <attr name="domui_gradientEnd" format="color" />
+        <!--渐变色开始方向-->
+        <attr name="domui_gradient_orientation" />
+    </declare-styleable>
+</resources>
